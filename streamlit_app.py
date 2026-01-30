@@ -143,7 +143,7 @@ if st.button("Predict"):
     st.plotly_chart(fig)
 
 
-    with st.popover("Want to see full probabilities?"):
+    with st.popover("Want to see the full list of probabilities?"):
         # Show full class probabilities
         st.subheader("Full set of probabilities")
         
