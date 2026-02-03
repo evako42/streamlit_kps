@@ -36,13 +36,11 @@ def mondrian_cp_predict(proba, classes, q_dict, alpha_per_class):
 
 
 #### APP ####
-
 st.title("Functional Status Prediction for Contrast-Enhancing Glioma")
-
 st.subheader("Background")
 st.markdown(
     """
-These predictions estimate **one-year postoperative functional status** after primary treatment of patients with radiologically confirmed contrast-enhancing gliomas.
+These predictions estimate the **one-year postoperative functional status** after the full primary treatment of patients with radiologically confirmed contrast-enhancing gliomas.
 
 Functional status is measured by **Karnofsky Performance Status (KPS)**:
 
@@ -59,7 +57,6 @@ st.subheader("How to use prediction sets?")
 st.video("static/mcp_video_audio_final.mp4")
 
 st.subheader("Patient characteristics")
-
 # --- User inputs ---
 age = st.slider(
     "Age at resection (years)", 
