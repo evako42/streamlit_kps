@@ -57,7 +57,7 @@ Reference/DOI: *(add when available)*
 # --- Disclaimer (prominent, always visible) ---
 st.warning(
     "**Research use only.** This tool is intended for research purposes only "
-    "and must not be used for clinical decision-making or patient care as it currently is.",
+    "and must not be used for clinical decision-making or patient care in the current format.",
     icon=None
 )
 
