@@ -49,7 +49,7 @@ Functional status is measured by **Karnofsky Performance Status (KPS)**:
 - **Functional independence:** KPS = 70–100
 
 [Preprint available here](https://www.medrxiv.org/content/10.64898/2026.04.28.26351937v1)  
-Reference/DOI: *(add when available)*
+Reference/DOI: https://doi.org/10.64898/2026.04.28.26351937
 
 """
         )
